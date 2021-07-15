@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css//navbtn.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>Hero Show room</title>
+  <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
+  <!-- <link rel="stylesheet" href="/js/bootstrap.js"> -->
+  <style>
+    .topscript {
+      margin: 0%;
+      padding: 0%;
+      display: block;
+      font-size: 0.8rem;
+      color: white;
+      background-color: black;
+    }
+    
+    .topscript ul {
+      position: absolute;
+      right: 15px;
+      /* margin-left: 900px; */
+    }
+
+    .topscript li {
+      display: inline-block;
+      /* margin: 0px 5px; */
+
+    }
+  </style>
+</head>
+
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Hero</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Bikes.html">Bikes</a></li>
+              
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.php">Service</a>
+          </li>
+
+        </ul>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <a class="btn btn-outline-danger me-md-2" href="login.php">Admin Login</a>
+          <button class="btn btn-primary me-md-2" type="button"><a href="mailto:heromotor@gmail.com">Email</a></button>
+          <button class="btn btn-primary" type="button"><a href="contactus.php">Contact Us</a></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/pic1.jpg" class="d-block w-100" alt="Pulsure">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/pic2.jpg" class="d-block w-100" alt="Bike">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/pic3.jpg" class="d-block w-100" alt="Karizma">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+ 
+
+  <div class="footer">
+    <div class="footercontainer">
+        <div class="social-links">
+            <a href="www.facebook.com"> <img src="img/fb_icon.png" alt=""></a>
+            <a href="www.twitter.com"> <img src="img/twitter_icon.png" alt=""></a>
+            <a href="www.youtube.com"> <img src="img/youtube_icon.png" alt=""></a>
+            <a href="www.instagram.com"> <img src="img/instagram_icon.png" alt=""></a>
+        </div>
+        <p class="copytext">
+            <a href="#">Terms and conditons</a>
+            <a href="#">Declainer</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Rules and Regulations</a>
+        </p>
+        <p class="copy-text">Copyright Hero MotoCorp Ltd. 2020.<br> All Rights Reserved.</p>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xtream</title>
+    <style>
+        .body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .firstimg img{
+                /* margin: -1%;
+                padding: 0%; */
+                max-width: 100%;
+            
+        }
+        .secondimg{
+            margin: 0%;
+            padding: 0%;
+            background-color: rgb(39, 37, 37);
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .animation1{
+            width: 100%;
+            animation: animation1 1s ease-in 0s 1 forwards ;
+            position: relative;
+        }
+        @keyframes animation1{
+            0%{
+                left: 0px;
+            }
+            100%{
+                left: 100px;
+            }
+        }
+        .animation2{
+            width: 100%;
+            animation: animation2 1s ease-in 0s 1 forwards ;
+            position: relative;
+            
+        }
+        .animation2 img{
+            width: 70%;
+            margin-top: 50px;
+        }
+        @keyframes animation2{
+            0%{
+                left: 220px;
+            }
+            100%{
+                left: 140px;
+            }
+        }
+        .thirdimg{
+            margin: 0%;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* grid-template-rows: 1fr 1fr ; */
+        }
+        .fullspecification{
+            width: 100%;
+        }
+        .fullspecificationbtn{
+            
+            width: 35%;
+            height: 50px; 
+            background-color: red;
+            margin: 15px;
+            border: 2px solid black;
+            border-radius: 8px;
+            
+        }
+        .fullspecificationbtn:hover{
+            background-color: rgba(255, 0, 0, 0.774);
+            cursor: pointer;
+            color: blueviolet;
+        }
+        .fullspecificationbtn a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 0px;
+        }
+        .footer{
+            width: 100%;
+            margin: 0%;
+            background-color: rgb(187, 186, 186);
+        }
+        .footercontainer{
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+        }
+        .social-links{
+            margin-top: 5px;
+        }
+        .social-links img{
+            width: 34px;
+            height: 34px;
+            margin-left: 10px ;
+        }
+        .social-links img:hover{
+            width: 45px;
+            color: black;
+            z-index: 2;
+        }
+        .copytext{
+            border-top: 1px solid rgba(0, 0, 0, 0.733);
+            border-bottom   : 1px solid rgba(0, 0, 0, 0.733);
+            padding: 2px 0px;
+            font-size: 11px;
+        }
+        .copytext a{
+            color: red;
+            text-decoration: none;
+            margin: 0px 15px 0px 0px;
+        }
+        .copy-text {
+            font-size: 11px;
+            color: rgb(78, 78, 78);
+        }
+    </style>
+</head>
+<body>
+    <div class="firstimg" >
+        <img src="img/Xtreme 160r bg.jpg" alt="">
+    </div>
+    <div class="secondimg">
+        <img class="animation1" src="img/Xtreme 160r bg2.jpg" alt="">
+        <div class="animation2">
+            <img src="img/xtreme160r-logo-d.png" alt="">
+            <p>Embrace the Future. Take the next Big Leap.<BR> Experience the Unknown.</p>
+        </div>
+    </div>
+    <div class="thirdimg">
+        <div class="thirdimg_logo">
+            <img src="img/xtream 160r logo.png" alt="">
+            <h2>UNVEIL YOUR SHADE</h2>
+        </div>
+        <div class="thirdimg_photo">
+            <img src="img/xtream160r straight.webp" alt="">
+        </div>
+    </div>
+    <div class="fullspecification">
+       <center> <button class="fullspecificationbtn"><a href="Xtream160Rspecification.html">FULL SPECIFICATION</a></button></center>
+    </div>
+    
+    <div class="footer">
+        <div class="footercontainer">
+            <div class="social-links">
+                <a href="www.facebook.com"> <img src="img/fb_icon.png" alt=""></a>
+                <a href="www.twitter.com"> <img src="img/twitter_icon.png" alt=""></a>
+                <a href="www.youtube.com"> <img src="img/youtube_icon.png" alt=""></a>
+                <a href="www.instagram.com"> <img src="img/instagram_icon.png" alt=""></a>
+            </div>
+            <p class="copytext">
+                <a href="#">Terms and conditons</a>
+                <a href="#">Declainer</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Rules and Regulations</a>
+            </p>
+            <p class="copy-text">Copyright &#169Narayan Dubey 2021.<br> All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

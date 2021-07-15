@@ -1,0 +1,47 @@
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn a:hover{
+    color: white;
+}
+.footer{
+    width: 100%;
+    margin: 0%;
+    background-color: rgb(187, 186, 186);
+}
+.footercontainer{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.social-links{
+    margin-top: 5px;
+}
+.social-links img{
+    width: 34px;
+    height: 34px;
+    margin-left: 10px ;
+}
+.social-links img:hover{
+    width: 45px;
+    color: black;
+    z-index: 2;
+}
+.copytext{
+    border-top: 1px solid rgba(0, 0, 0, 0.733);
+    border-bottom   : 1px solid rgba(0, 0, 0, 0.733);
+    padding: 2px 0px;
+    font-size: 11px;
+}
+.copytext a{
+    color: red;
+    text-decoration: none;
+    margin: 0px 15px 0px 0px;
+}
+.copy-text {
+    font-size: 11px;
+    color: rgb(78, 78, 78);
+}
